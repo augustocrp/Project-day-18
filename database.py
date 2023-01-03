@@ -23,7 +23,7 @@ class DatabaseClient(metaclass=DatabaseSingleton):
     
     def set_classmates(self, classmates):
         for classmate in classmates:
-        self.classmates.append(classmate)
+            self.classmates.append(classmate)
 
     def get_classmates(self):
         return self.classmates
